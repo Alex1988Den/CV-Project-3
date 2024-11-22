@@ -45,6 +45,10 @@
 - Предсказанная маска: результат работы модели, наложенный на изображение.
 - Истинная маска: реальная маска, которая использовалась для обучения.
 
+# Контрибьюторы
+
+Для вопросов и предложений вы можете связаться со мной через GitHub или по электронной почте: aleksandr.denissov@brave.ee
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -89,8 +93,3 @@ python train.py --epochs 20 --batch-size 16 --lr 0.001
 # Визуализируйте результаты:
 
 python visualize.py --image_path path_to_image --pred_mask_path path_to_pred_mask --true_mask_path path_to_true_mask
-
-# Контрибьюторы
-
-Для вопросов и предложений вы можете связаться со мной через GitHub или по электронной почте: aleksandr.denissov@brave.ee
-
